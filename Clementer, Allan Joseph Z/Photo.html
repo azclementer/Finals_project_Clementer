@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Clementer, Allan Joseph Z</title>
+<style>
+    ul{
+  float: right;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  background-color: #000;
+  color:rgb(234, 230, 230);
+  padding: 10px 45px;
+  border: 4px solid #000;
+}
+ul li a:hover{
+      background-color: rgb(0, 0, 0);
+      color: #000;
+}
+
+.button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+        50% {
+          background-color: #000000;
+          box-shadow: 0 0 20px #ffffff;
+        }
+        100% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+
+      .btn1{
+   	    margin-right: 50px;
+   	}
+
+legend {
+  text-decoration: none;
+  color:rgb(234, 230, 230);
+  padding: 10px 45px;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+     #demo {
+  position: absolute;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  right: 0px;
+  width: 200px;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  color: white;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgb(16, 16, 219);
+  text-align: center;
+}
+
+h2 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-align: center;
+}
+
+h3 {
+  font-size: 5rem;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+h2 + p {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(254, 254, 254);
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+body{
+    background-image: url("Baguio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin-right: 100px;
+}
+
+.column {
+  float: left;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+</style>
+</head>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<body>
+  <div class="main">
+    <ul>
+      <br>
+      <br>
+      <br>
+        <space class="btn1"><a class="button" href="index.html">Home</a></space>
+        <space  class="btn1"><a class="button" href="Photo.html">Gallery</a></space>
+        <space  class="btn1"><a class="button" href="Location Map.html">Maps</a></space>
+        <space   class="btn1"><a class="button" href ="Parks.html">Parks in Baguio</a></space>
+        <space  class="btn1"><a class="button" href ="The Food.html">Foods</a></space>
+        <space   class="btn1"><a class="button" href ="Museum.html">Museum</a></space>
+        <space  class="btn1"><a class="button" href="Contact Us.html">Contact Us</a></space>
+    </ul>
+  </div>
+
+    <div id="demo">
+    </div>
+    <script>
+      let myVar = setInterval(myTimer ,1000);
+      function myTimer() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        document.getElementById("demo").style.left = "1100px";
+      }
+      
+      </script>
+
+
+        
+    <div>
+            <fieldset style="text-align:center;"><img src="Baguio3.jpeg" alt="Baguio" style="float:center;width:1200px;height:600px;">
+            </fieldset>
+    </div>
+
+    <div>
+        <p>
+            <fieldset style="text-align:center;">
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 10</div>
+                  <img src="Burnham Lake.jpg" style="width:1200px;height:100">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 10</div>
+                  <img src="Bike area.jpg" style="width:1200px;height:100">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 10</div>
+                  <img src="Children park.jpg" style="width:1200px;height:100">
+                </div>
+              
+                </div>
+              <legend><h1><p style="font-size:35px;"><u>𝓑𝓾𝓻𝓷𝓱𝓪𝓶 𝓟𝓪𝓻𝓴 𝓛𝓸𝓬𝓪𝓽𝓲𝓸𝓷</u></p></h1></legend>
+                <fieldset><h3><p style="color:rgb(255, 255, 255);"style="font-size:25px;text-align:center;"><u>A classic Baguio tourist spot, Burnham Park is located in the heart of 
+                    Baguio City. It has a mix of activities that will undoubtedly take you at least the whole afternoon 
+                    to try. Go for a ride in one of the many boats that line the corners of Burnham Lake. You can also 
+                    rent a two-seater chopper bike or a non-motorized go-kart for less than Php 100.</u></h3></fieldset>
+                    <h2> <p style="font-size:25px;text-align:center;">If you want to learned more about Baguios Parks CLICK HERE!!.<a href ="Parks.html">Baguio Parks.</a></p></h2>
+        <p>
+                
+            </fieldset>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <div>
+        <p>
+            <fieldset style="text-align:center;"><img src="Night.jpg" alt="Baguio" style="float:center;width:1200px;height:600px;">
+              <legend ><h1><p style="font-size:50px;"><u>𝒩𝒾𝑔𝒽𝓉 𝑀𝒶𝓇𝓀𝑒𝓉</u></p></h1></legend>
+                <fieldset> <h3><p style="color:rgb(249, 252, 255);"style="font-size:25px;text-align:center;"><u>Besides experiencing the city’s 
+                vibrant arts scene, tourists in Baguio find it hard to leave without at least trying to find something from 
+                the popular Night Market. It’s a flea market where you can find almost any type of casual clothing you can 
+                think of: jeans, sneakers, dress shoes, jackets, and the like. It takes up half of Harrison Road, 
+                located northeast of Burnham Park, and starts between 9 and 9:30 pm.</u></h3></fieldset>
+                <h2> <p style="font-size:25px;text-align:center;">If you want to learned more about Baguios Foods CLICK HERE!!.<a href ="The food.html">More Pictures of Baguio Foods.</a></p></h2>
+          <p>
+            </fieldset>
+    </div>
+    
+    <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000);
+      }
+      </script>
+
+    
+</body>
+</html>
+

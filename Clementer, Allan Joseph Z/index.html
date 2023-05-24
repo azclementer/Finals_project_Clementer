@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Clementer, Allan Joseph Z</title>
+<body>
+    <script>
+         alert("Hello this Website is full of knowlege\nYou can dismiss me by clicking on the OK button");
+    </script> 
+
+<style>
+    ul{
+  float: left;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  background-color: #000;
+  color:rgb(234, 230, 230);
+  padding: 10px 65px;
+  border: 6px solid #000;
+}
+ul li a:hover{
+      background-color: rgb(0, 0, 0);
+      color: #000;
+}
+
+#demo {
+  position: absolute;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  right: 0px;
+  width: 200px;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  color: white;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.btn1{
+   	    margin-right: 50px;
+   	}
+
+     .button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+
+
+      @keyframes glowing {
+        0% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+        50% {
+          background-color: #000000;
+          box-shadow: 0 0 20px #ffffff;
+        }
+        100% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+      }
+
+
+
+
+body{
+    background-image: url("Baguio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin-right: 200px;
+
+}
+
+</style>
+</head>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<body>
+  <div class="main">
+    <ul>
+      <br>
+      <br>
+      <br>
+        <space class="btn1"><a class="button" href="index.html">Home</a></space>
+        <space  class="btn1"><a class="button" href="Photo.html">Gallery</a></space>
+        <space  class="btn1"><a class="button" href="Location Map.html">Maps</a></space>
+        <space   class="btn1"><a class="button" href ="Parks.html">Parks in Baguio</a></space>
+        <space  class="btn1"><a class="button" href ="The Food.html">Foods</a></space>
+        <space   class="btn1"><a class="button" href ="Museum.html">Museum</a></space>
+        <space  class="btn1"><a class="button" href="Contact Us.html">Contact Us</a></space>
+    </ul>
+  </div>
+
+    <div id="demo">
+    </div>
+    <script>
+      let myVar = setInterval(myTimer ,1000);
+      function myTimer() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        document.getElementById("demo").style.left = "1100px";
+      }
+      </script>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="Baguio.jpg" style="width:1490px;height:500">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="Baguio1.jpg" style="width:1490px;height:500">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="Baguio2.png" style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="Baguio3.jpeg" style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5/ 10</div>
+    <img src="Lionhead.jpg" style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="View deck.jpg" style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="Stone.jpg"  style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="Strawberry.jpg" style="width:1490px;height:500">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Bellchurch.jpg" style="width:1490px;height:500">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="John Hay.jpg" style="width:1490px;height:500">
+  </div>
+
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000);
+  }
+  </script>
+  
+
+</body>
+</html>

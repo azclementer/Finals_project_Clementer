@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Clementer, Allan Joseph Z</title>
+<style>
+    ul{
+  float: right;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  background-color: #000;
+  color:rgb(234, 230, 230);
+  padding: 10px 45px;
+  border: 4px solid #000;
+}
+ul li a:hover{
+      background-color: rgb(0, 0, 0);
+      color: #000;
+}
+
+legend {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  padding: 1px 1px;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+        50% {
+          background-color: #000000;
+          box-shadow: 0 0 20px #ffffff;
+        }
+        100% {
+          background-color: #000000;
+          box-shadow: 0 0 5px #ffffff;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+
+      .btn1{
+   	    margin-right: 50px;
+   	}
+
+     #demo {
+  position: absolute;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  right: 0px;
+  width: 200px;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  color: white;
+}
+
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgb(16, 16, 219),
+               2px 2px 1px rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(254, 254, 254);
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body{
+    background-image: url("Baguio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    margin-right: 200px;
+}
+
+
+.column {
+  float: left;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+</style>
+</head>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<body>
+  <div class="main">
+    <ul>
+      <br>
+      <br>
+      <br>
+        <space class="btn1"><a class="button" href="index.html">Home</a></space>
+        <space  class="btn1"><a class="button" href="Photo.html">Gallery</a></space>
+        <space  class="btn1"><a class="button" href="Location Map.html">Maps</a></space>
+        <space   class="btn1"><a class="button" href ="Parks.html">Parks in Baguio</a></space>
+        <space  class="btn1"><a class="button" href ="The Food.html">Foods</a></space>
+        <space   class="btn1"><a class="button" href ="Museum.html">Museum</a></space>
+        <space  class="btn1"><a class="button" href="Contact Us.html">Contact Us</a></space>
+    </ul>
+  </div>
+
+
+    <div id="demo">
+    </div>
+    <script>
+      let myVar = setInterval(myTimer ,1000);
+      function myTimer() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        document.getElementById("demo").style.left = "1100px";
+      }
+      
+      </script>
+
+
+  
+<head>
+    <meta charset="utf-8">
+    <title>Customize the scroll-bar</title>
+</head>
+<div>
+    <p>
+        <fieldset style="text-align:center;">
+            <legend><h1><p style="font-size:35px;"><u>𝐁 𝐀 𝐆 𝐔 𝐈 𝐎 &nbsp; 𝐂 𝐈 𝐓 𝐘 &nbsp; 𝐃 𝐢 𝐫 𝐚 𝐜 𝐭 𝐢 𝐨 𝐧 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+            <legend><h2> <p style="font-size:25px;text-align:center;">If you want to learned more about Baguios Parks CLICK HERE!!.</legend><li><a href ="Parks.html">Baguio Parks.</a></li></p></h2>
+            <fieldset><iframe src=
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61239.980584580844!2d120.58877519999999!3d16.3994753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a16879def13f%3A0x8edef534be3a75c0!2sBaguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1653639889551!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                    width="1000"
+                                    height="300"
+                                    frameborder="0"
+                                    style="border:0;"
+                                    allowfullscreen=""
+                                    aria-hidden="false"
+                                    tabindex="0">
+                            </iframe></fieldset>
+    <p>
+        </fieldset>
+</div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customize the scroll-bar</title>
+</head>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u>𝐁 𝐔 𝐑 𝐍 𝐇 𝐀 𝐑 𝐌 &nbsp; 𝐏 𝐀 𝐑 𝐊 &nbsp; 𝐌 𝐀 𝐏</u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Burnham Park CLICK HERE!!.</p></legend><li><a href ="Burnharm.html">BURNHAM PARK.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.381174483373!2d120.58627555686661!3d16.407280718763445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a16998ef8289%3A0xd18a33a9e621bcf2!2sBurnham%20Park%2C%20Jose%20Abad%20Santos%20Dr%2C%20Baguio%2C%202600%20Benguet!3m2!1d16.4123795!2d120.5929704!5e0!3m2!1sen!2sph!4v1653647199912!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐁 𝐎 𝐓 𝐀 𝐍 𝐈 𝐂 𝐀 𝐋 &nbsp; 𝐆 𝐀 𝐑 𝐃 𝐄 𝐍 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Botanical Garden CLICK HERE!!.</p></legend><li><a href ="Botanical.html">BOTANICAL GARDEN.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.213489551523!2d120.59585690686737!3d16.40941186874254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a16879def13f%3A0x8edef534be3a75c0!2sBaguio%2C%20Benguet!3m2!1d16.402333199999998!2d120.5960071!4m5!1s0x3391a1541c0c7227%3A0x673a805fba2868d2!2sBaguio%20Botanical%20Garden%2C%2037%20Leonard%20Wood%20Rd%2C%20Baguio%2C%202600%20Benguet!3m2!1d16.4144181!2d120.6132028!5e0!3m2!1sen!2sph!4v1653647070771!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐂 𝐀 𝐌 𝐏 &nbsp; 𝐉 𝐎 𝐇 𝐍 &nbsp; 𝐇 𝐀 𝐘 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Camp John hay ClICK HERE!!.</p></legend><li><a href ="John Hay.html">CAMP JOHN HAY.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.962594560424!2d120.5954007068642!3d16.399889218835984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a149fef7c093%3A0xaf93318040d673cc!2sCamp%20John%20Hay%2C%20Baguio%2C%20Benguet!3m2!1d16.397029!2d120.6113599!5e0!3m2!1sen!2sph!4v1653647474443!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐌 𝐈 𝐍 𝐄 𝐒 &nbsp; 𝐕 𝐈 𝐄 𝐖 &nbsp; 𝐏 𝐀 𝐑 𝐊 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Mines View Park ClICK HERE!!.</p></legend><li><a href ="Mines View.html">MINES VIEW.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d30618.00662607629!2d120.5955284878147!3d16.412082674854915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a403782fc44f%3A0x28866f8d6316e9b2!2sMines%20View%20Park%2C%20Benguet!3m2!1d16.4216262!2d120.6300567!5e0!3m2!1sen!2sph!4v1653647790599!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐏 𝐀 𝐍 𝐀 𝐆 𝐁 𝐄 𝐍 𝐆 𝐀 &nbsp; 𝐏 𝐀 𝐑 𝐊 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Panagbenga Park ClICK HERE!!.</p></legend><li><a href ="Panagbenga Park.html">PANAGBENGA PARK.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7654.868236346137!2d120.59690641916343!3d16.402764254702277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a146f909c611%3A0x1e4fd0861fe8449a!2sPanagbenga%20Park%2C%20Baguio%2C%20Benguet!3m2!1d16.4037429!2d120.6056132!5e0!3m2!1sen!2sph!4v1653647954340!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐒 𝐓 𝐎 𝐍 𝐄 &nbsp; 𝐊 𝐈 𝐍 𝐆 𝐃 𝐎 𝐌 𝐄 &nbsp; 𝐏 𝐀 𝐑 𝐊 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Stone kingdome Park ClICK HERE!!.</p></legend><li><a href ="Stone Kingdome Park.html">STONE KINGDOME.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7654.868236346137!2d120.59690641916343!3d16.402764254702277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a146f909c611%3A0x1e4fd0861fe8449a!2sPanagbenga%20Park%2C%20Baguio%2C%20Benguet!3m2!1d16.4037429!2d120.6056132!5e0!3m2!1sen!2sph!4v1653647954340!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐑 𝐎 𝐒 𝐄 &nbsp; 𝐆 𝐀 𝐑 𝐃 𝐄 𝐍 &nbsp; 𝐏 𝐀 𝐑 𝐊 &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Rose Garden ClICK HERE!!.</p></legend><li><a href ="Rose Garden.html">ROSE GARDEN.</a></li></p></h2>
+          <fieldset><iframe src=
+            "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.418901237106!2d120.58627554809796!3d16.406801202861878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a168f25f2caf%3A0xfd0c427158f1c438!2sBaguio%20Rose%20Garden%2C%20CH6V%2BJ99%2C%20Park%20Road%2C%20Baguio%2C%20Benguet!3m2!1d16.411547199999998!2d120.5934918!5e0!3m2!1sen!2sph!4v1653650990476!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> BENCAB &nbsp; MUSEUM &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Bencab museum ClICK HERE!!.</p></legend><li><a href ="Bencab.html">BENCAB MUSEUM.</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d30619.814916494735!2d120.55309466659068!3d16.400590296961077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a1c03111bf47%3A0xd737ba26ae8461c9!2sBenCab%20Museum%2C%20Asin%20Road%2C%20Tuba%2C%20Benguet!3m2!1d16.4107369!2d120.5504129!5e0!3m2!1sen!2sph!4v1684558031366!5m2!1sen!2sph"  width="1430" height="550" style="border:0;"  width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐊 𝐎 𝐑 𝐃 𝐈 𝐋 𝐘 𝐄 𝐑 𝐀 &nbsp; MUSEUM &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Kordilyera ClICK HERE!!.</p></legend><li><a href ="Kordilyera.html">𝐊 𝐎 𝐑 𝐃 𝐈 𝐋 𝐘 𝐄 𝐑 𝐀   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3827.396586337928!2d120.59525822437908!3d16.404672784324504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a141c2a57bc7%3A0x6d2a3c5605b99576!2sMuseo%20Kordilyera%2C%20Gov.%20Pack%20Road%2C%20Baguio%2C%20Benguet!3m2!1d16.4057526!2d120.5976917!5e0!3m2!1sen!2sph!4v1684558433032!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝘽 𝘼 𝙂 𝙐 𝙄 𝙊  &nbsp; MUSEUM &nbsp; 𝐌 𝐀 𝐏 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of Baguio museum ClICK HERE!!.</p></legend><li><a href ="Kordilyera.html">𝘽 𝘼 𝙂 𝙐 𝙄 𝙊   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3827.399840132317!2d120.59525822437915!3d16.40450733432465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a142201c9ef9%3A0x44ddaa6a82cc4002!2sBaguio%20Museum%2C%20Dot-PTA%20Complex%2C%20Gov.%20Pack%20Road%2C%20Baguio%2C%20Benguet!3m2!1d16.4070408!2d120.5984381!5e0!3m2!1sen!2sph!4v1684558623577!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐁 𝐄 𝐋 𝐋   &nbsp; 𝐇 𝐎 𝐔 𝐒 𝐄 &nbsp; 𝐋 𝐈 𝐁 𝐑 𝐀 𝐑 𝐘 &nbsp; 𝐌 𝐀 𝐏</u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of 𝐁 𝐄 𝐋 𝐋   𝐇 𝐎 𝐔 𝐒 𝐄   𝐋 𝐈 𝐁 𝐑 𝐀 𝐑 𝐘   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈 ClICK HERE!!.</p></legend><li><a href ="Bell House.html"> 𝐁 𝐄 𝐋 𝐋   𝐇 𝐎 𝐔 𝐒 𝐄   𝐋 𝐈 𝐁 𝐑 𝐀 𝐑 𝐘   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.962509592704!2d120.5973390878822!3d16.399890299253663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a14a9a283227%3A0x26401eb6cb524369!2sBell%20House%2C%20Bell%20House%2C%20Camp%20John%20Hay%2C%20Baguio%2C%20Benguet!3m2!1d16.3991436!2d120.6183446!5e0!3m2!1sen!2sph!4v1684558925956!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐓 𝐀 𝐌 - 𝐀 𝐖 𝐀 𝐍   &nbsp; 𝐕 𝐈 𝐋 𝐋 𝐀 𝐍 𝐆 𝐄 &nbsp; 𝙈 𝙐 𝙎 𝙀 𝙐 𝙈&nbsp; 𝐌 𝐀 𝐏</u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of 𝐓 𝐀 𝐌 - 𝐀 𝐖 𝐀 𝐍   𝐕 𝐈 𝐋 𝐋 𝐀 𝐍 𝐆 𝐄   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈 ClICK HERE!!.</p></legend><li><a href ="Tam-awan.html">𝐓 𝐀 𝐌 - 𝐀 𝐖 𝐀 𝐍   𝐕 𝐈 𝐋 𝐋 𝐀 𝐍 𝐆 𝐄   𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d15309.962509592704!2d120.5973390878822!3d16.399890299253663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a14a9a283227%3A0x26401eb6cb524369!2sBell%20House%2C%20Bell%20House%2C%20Camp%20John%20Hay%2C%20Baguio%2C%20Benguet!3m2!1d16.3991436!2d120.6183446!5e0!3m2!1sen!2sph!4v1684558925956!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐆𝐀𝐋𝐋𝐄𝐑𝐈𝐀   &nbsp; 𝐃𝐄 &nbsp; 𝐘𝐀𝐑𝐃&nbsp; 𝐏𝐎𝐓𝐄𝐍𝐂𝐈𝐀𝐍𝐀&nbsp; 𝐁𝐘 &nbsp;𝐀𝐑𝐂𝐀'𝐒 &nbsp; 𝙈 𝙐 𝙎 𝙀 𝙐 𝙈 </u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of 𝐆𝐀𝐋𝐋𝐄𝐑𝐈𝐀   𝐃𝐄   𝐏𝐎𝐓𝐄𝐍𝐂𝐈𝐀𝐍𝐀   𝐁𝐘   𝐀𝐑𝐂𝐀'𝐒   𝐘𝐀𝐑𝐃 ClICK HERE!!.</p></legend><li><a href ="Galleria.html">𝐆𝐀𝐋𝐋𝐄𝐑𝐈𝐀   𝐃𝐄   𝐏𝐎𝐓𝐄𝐍𝐂𝐈𝐀𝐍𝐀   𝐁𝐘   𝐀𝐑𝐂𝐀'𝐒   𝐘𝐀𝐑𝐃</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d30617.4251766438!2d120.58937376661568!3d16.4157763461362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a4087be0bc4d%3A0x632e5a801747c9a9!2sPotenciana%20Galleria%20(Arca&#39;s%20Yard%20Annex)%2C%20Tip-Top%2C%20888%20Ambuklao%20Rd%2C%20Baguio%2C%20Benguet!3m2!1d16.429808299999998!2d120.6225321!5e0!3m2!1sen!2sph!4v1684559444380!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐈 𝐋 𝐈 𝐋 𝐈 𝐊 𝐇 𝐀   &nbsp;𝐀 𝐑 𝐓 𝐈 𝐒 𝐓  &nbsp; 𝐕 𝐈 𝐋 𝐋 𝐀 𝐆 𝐄 &nbsp; 𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of 𝐈 𝐋 𝐈 𝐋 𝐈 𝐊 𝐇 𝐀   𝐀 𝐑 𝐓 𝐈 𝐒 𝐓   𝐕 𝐈 𝐋 𝐋 𝐀 𝐆 𝐄 ClICK HERE!!.</p></legend><li><a href ="ililikha.html">𝐈 𝐋 𝐈 𝐋 𝐈 𝐊 𝐇 𝐀   𝐀 𝐑 𝐓 𝐈 𝐒 𝐓   𝐕 𝐈 𝐋 𝐋 𝐀 𝐆 𝐄</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7654.672608376113!2d120.59455128882256!3d16.407737737287338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a15d67140ddb%3A0xf57fc150d9f999a4!2sIli-Likha%20Artists%20Village%2C%20Baguio%2C%20Benguet!3m2!1d16.4137958!2d120.5972006!5e0!3m2!1sen!2sph!4v1684559697126!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+<div>
+  <p>
+      <fieldset style="text-align:center;">
+          <legend><h1><p style="font-size:35px;"><u> 𝐕𝐈𝐂𝐓𝐎𝐑   &nbsp;𝐎𝐓𝐄𝐘𝐙𝐀  &nbsp; 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘 &nbsp;𝐀𝐑𝐓&nbsp;𝐒𝐏𝐀𝐂𝐄&nbsp;𝙈 𝙐 𝙎 𝙀 𝙐 𝙈</u></p></h1></legend>
+          <legend><h2> <p style="font-size:25px;text-align:center;">If you like to see pictures of 𝐕𝐈𝐂𝐓𝐎𝐑   𝐎𝐓𝐄𝐘𝐙𝐀   𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘   𝐀𝐑𝐓   𝐒𝐏𝐀𝐂𝐄 HERE!!.</p></legend><li><a href ="victory.html">𝐕𝐈𝐂𝐓𝐎𝐑   𝐎𝐓𝐄𝐘𝐙𝐀   𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘   𝐀𝐑𝐓   𝐒𝐏𝐀𝐂𝐄</a></li></p></h2>
+          <fieldset><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7654.703206323295!2d120.59268328882249!3d16.40695993728988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Benguet!3m2!1d16.4019618!2d120.5969758!4m5!1s0x3391a142b0cd43ff%3A0x3aceb0d0ec00763c!2sVOCAS%20Art%20Space%20and%20O%20My%20Gulay%20Cafe%2C%20CH6X%2BM54%2C%20Diego%20Silang%20St%2C%20Baguio%2C%20Benguet!3m2!1d16.4116668!2d120.5979658!5e0!3m2!1sen!2sph!4v1684559967340!5m2!1sen!2sph" width="1430" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                  width="1000"
+                                  height="300"
+                                  frameborder="0"
+                                  style="border:0;"
+                                  allowfullscreen=""
+                                  aria-hidden="false"
+                                  tabindex="0">
+                          </iframe></fieldset>
+  <p>
+      </fieldset>
+</div>
+
+</body>
+</html>
